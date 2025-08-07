@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <title>Formulário de Pagamento</title>
+ </head>  
+ <body>
+    <form method="post">
+        <h1>Formulário de Pagamento</h1>
+        <section>
+           <h2>Informação de Contato</h2>
+           <fieldset>
+              <legend>Sexo</legend>
+              <ul>
+                 <li>
+                  <label  for ="title_1">
+                   <input type="radio" id="title_1" name="title_1" value="Masculino">
+                    Masculino
+                  </label>
+                 </li>
+                 <li>
+                  <label  for ="title_2">
+                   <input type="radio" id="title_2" name="title_2" value="Feminino">
+                    Feminino
+                  </label>
+                 </li>
+                   <li>
+                     <label  for ="title_3">
+                      <input type="radio" id="title_3" name="title_3" value="Outro">
+                     Outro
+                     </label>
+              </ul>
+           </fieldset>
+           <p>
+               <label for="name">
+                <span>Nome</span> 
+               </label>
+               <input type="text" id="name" name="name">
+           </p>
+            <p>
+               <label for="gmail">
+                <span>gmail</span> 
+               </label>
+               <input type="text" id="gmail" name="gmail">
+           </p>
+            <p>
+               <label for="password">
+                <span>Senha</span> 
+               </label>
+               <input type="password" id="password" name="password">
+           </p>
+           
+          </section>
+          <section>
+            <h2>
+              Informação de Pagamento
+            </h2>
+            <p>
+            <label for ="card">
+               Tipo de Cartão:
+            </label>
+            <select id ="card" name="card">
+                <option value="visa">Visa</option>
+                <option value="mastercard">MasterCard</option>
+                <option value="American">American Express</option>
+            </select>
+            </p>
+             <p>
+              <label for ="date">
+               Data do Cartão:
+             </label>
+              <input type="date" id="date" name="expiration">
+            </p>
+          </section>
+            <sectiom>
+                  <p>
+                    <button type="submit">Enviar</button>
+                  </p>
+            </sectiom>
+    </form>
+ </body>
+</html>
