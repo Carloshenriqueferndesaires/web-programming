@@ -1,0 +1,8 @@
+{
+   "dados":{
+        "host":"localhost",
+        "porta":5432,
+        "usuario":"admin",
+        "senha":"senha123"
+   }
+}
